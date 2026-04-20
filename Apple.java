@@ -10,6 +10,12 @@ public class Apple extends Actor
         {
             resetApple();
         }
+        if(isTouching(hero.class))
+        {
+            Banana banana = new Banana();
+            getWorld().addObject(banana, 300, 200);
+            getWorld().removeObject(this);
+        }
     }
     public void resetApple()
     {

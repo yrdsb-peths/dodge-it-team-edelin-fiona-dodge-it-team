@@ -7,7 +7,7 @@ public class MyWorld extends World {
         Sheep sheep = new Sheep();
         addObject(sheep, 100, 100);
         
-        Apple Apple = new Apple();
-        addObject(Apple, 600, 100);
+        Apple apple = new Apple();
+        addObject(apple, 600, 100);
     }
 }
