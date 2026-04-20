@@ -16,4 +16,16 @@ public class Apple extends Actor
     {
         // Add your action code here.
     }
+    public void resetApple()
+    {
+        int num = Greenfoot,getRandomNumber(2);
+        if(num == 0)
+        {
+            setLocation(600, 100);
+        }
+        else
+        {
+            setLocation(600, 300);
+        }
+    }
 }
