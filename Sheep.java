@@ -10,5 +10,8 @@ public class Sheep extends Actor
         if(atTop){
             setLocation(100,100);
         }
+        else{
+            setLocation(100,300);
+        }
     }
 }
