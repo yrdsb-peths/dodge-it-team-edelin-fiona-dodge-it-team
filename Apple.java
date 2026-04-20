@@ -8,11 +8,12 @@ public class Apple extends Actor
         
         if(getX() <= 0)
         {
+            resetApple();
         }
     }
     public void resetApple()
     {
-        int num = Greenfoot,getRandomNumber(2);
+        int num = Greenfoot.getRandomNumber(2);
         if(num == 0)
         {
             setLocation(600, 100);
