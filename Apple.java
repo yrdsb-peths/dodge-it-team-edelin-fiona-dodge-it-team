@@ -5,7 +5,7 @@ public class Apple extends Actor
     public void act()
     {
         move(-10);
-        
+    
         if(getX() <= 0)
         {
             resetApple();
